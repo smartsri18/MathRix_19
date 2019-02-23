@@ -18,19 +18,19 @@
         <!-- navbar content section start here-->
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
+            <li class="nav-item active mx-3">
               <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a class="nav-link" href="#events">Events</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a class="nav-link" href="#workshop">Workshop</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a class="nav-link" href="#">Contact us</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-3">
               <a class="nav-link" href="#">Register</a>
             </li>
           </ul>
@@ -66,7 +66,7 @@
                 <div class="flip-card-back">
                   <h1>Code Relay</h1>
                   <p>Coding Relay description</p>
-                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_1">
                     More Details
                   </button>
                 </div>
@@ -74,11 +74,11 @@
             </div>
           </div>
           <!-- modal  -->
-          <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+          <div class="modal fade" id="events_1" tabindex="-1" role="dialog" aria-labelledby="events_1" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered" role="document">
               <div class="modal-content">
                 <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                  <h5 class="modal-title" id="events_1">Code Relay</h5>
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                   </button>
@@ -86,37 +86,30 @@
                 <div class="modal-body">
                   <ul class="nav nav-tabs">
                     <li class="nav-item">
-                      <a class="nav-link active" href="#format1">Format</a>
+                      <a class="nav-link active show" data-toggle="tab" href="#format1">Format</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#rule1">Rule</a>
+                      <a class="nav-link" data-toggle="tab" href="#rule1">Rule</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#contact1">Contact</a>
+                      <a class="nav-link" data-toggle="tab" href="#contact1">Contact</a>
                     </li>
                   </ul>
+                  <!-- tab-panel content -->
                   <div class="tab-content">
-                    <div class="tab-elements" id=format1>
-                      <ul class="list-group">
-                      							<li class="list-group-item">
-                      								<h4><i style="color: #62C85B; " class="fa fa-check-circle-o"></i> <strong>Round 1 (Pen and Paper)</strong></h4>
-                      								<span>
-                      									Participants will be given various programming based questions
-                      like spot the error, guess the output, complete the function etc.
-                      								</span>
-                      								<h4><strong>Duration</strong>: 45 minutes</h4>
-                      								<h4><i style="color: #62C85B; " class="fa fa-check-circle-o"></i> <strong>Round 2 (Lab)</strong></h4>
-                      <span>Participants will be given problem statement, input and output.
-                      One has to find the logic and efficient code for the given problems.</span>
-                      <h4> <strong>Duration: 45 Minutes</strong></h4>
-                      							</li>
-
-                      						  </ul>
+                      <div id="format1" class="tab-pane fade in active show">
+                        <h3>Round ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="rule1" class="tab-pane fade">
+                        <h3>Rule ?</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="contact1" class="tab-pane fade">
+                        <h3>Contact no ?</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
                     </div>
-                    <div class="tab-elements" id=contact1>
-                      <h1>Hema</h1>
-                    </div>
-                  </div>
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -138,6 +131,53 @@
                 <div class="flip-card-back">
                   <h1>Connexions</h1>
                   <p>Connexions description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_2">
+                    More Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade" id="events_2" tabindex="-1" role="dialog" aria-labelledby="events_2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="events_2">Connexions</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active show" data-toggle="tab" href="#format2">Format</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#rule2">Rule</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#contact2">Contact</a>
+                    </li>
+                  </ul>
+                  <!-- tab-panel content -->
+                  <div class="tab-content">
+                      <div id="format2" class="tab-pane fade in active show">
+                        <h3>Round ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="rule2" class="tab-pane fade">
+                        <h3>Rule ?</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="contact2" class="tab-pane fade">
+                        <h3>Contact no ?</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -154,7 +194,54 @@
                 <div class="flip-card-back">
                   <h1>Tricksters</h1>
                   <p>Tricksters Description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_3">
+                    More Details
+                  </button>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal  -->
+        <div class="modal fade" id="events_3" tabindex="-1" role="dialog" aria-labelledby="events_3" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="events_3">Tricksters</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active show" data-toggle="tab" href="#format3">Format</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#rule3">Rule</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#contact3">Contact</a>
+                  </li>
+                </ul>
+                <!-- tab-panel content -->
+                <div class="tab-content">
+                    <div id="format3" class="tab-pane fade in active show">
+                      <h3>Round ?</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div id="rule3" class="tab-pane fade">
+                      <h3>Rule ?</h3>
+                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div id="contact3" class="tab-pane fade">
+                      <h3>Contact no ?</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
               </div>
             </div>
           </div>
@@ -172,6 +259,53 @@
                 <div class="flip-card-back">
                   <h1>Math Quiz</h1>
                   <p>Math Quiz description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_4">
+                    More Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade" id="events_4" tabindex="-1" role="dialog" aria-labelledby="events_4" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="events_4">Math Quiz</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active show" data-toggle="tab" href="#format4">Format</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#rule4">Rule</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#contact4">Contact</a>
+                    </li>
+                  </ul>
+                  <!-- tab-panel content -->
+                  <div class="tab-content">
+                      <div id="format4" class="tab-pane fade in active show">
+                        <h3>Round ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="rule4" class="tab-pane fade">
+                        <h3>Rule ?</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="contact4" class="tab-pane fade">
+                        <h3>Contact no ?</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -188,6 +322,53 @@
                 <div class="flip-card-back">
                   <h1>Fun Math</h1>
                   <p>Fun Math description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_5">
+                    More Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade" id="events_5" tabindex="-1" role="dialog" aria-labelledby="events_5" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="events_5">Fun Math</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active show" data-toggle="tab" href="#format5">Format</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#rule5">Rule</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#contact5">Contact</a>
+                    </li>
+                  </ul>
+                  <!-- tab-panel content -->
+                  <div class="tab-content">
+                      <div id="format5" class="tab-pane fade in active show">
+                        <h3>Round ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="rule5" class="tab-pane fade">
+                        <h3>Rule ?</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="contact5" class="tab-pane fade">
+                        <h3>Contact no ?</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -204,6 +385,53 @@
                 <div class="flip-card-back">
                   <h1>Logo Design</h1>
                   <p>Logo Design Description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_6">
+                    More Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade" id="events_6" tabindex="-1" role="dialog" aria-labelledby="events_6" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="events_6">Logo Design</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active show" data-toggle="tab" href="#format6">Format</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#rule6">Rule</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#contact6">Contact</a>
+                    </li>
+                  </ul>
+                  <!-- tab-panel content -->
+                  <div class="tab-content">
+                      <div id="format6" class="tab-pane fade in active show">
+                        <h3>Round ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="rule6" class="tab-pane fade">
+                        <h3>Rule ?</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="contact6" class="tab-pane fade">
+                        <h3>Contact no ?</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                 </div>
               </div>
             </div>
@@ -276,9 +504,12 @@
     <!-- Footer section ends here -->
   </body>
   <script type="text/javascript">
-  $('.nav-tabs li a').click(function() {
-    $('.nav-tabs li a.active').removeClass('active');
-    $(this).addClass('active');
-  });
+  // $('.nav-tabs li a').click(function() {
+  //   $('.nav-tabs li a.active').removeClass('active');
+  //   $(this).addClass('active');
+  // });
+  // $("btn").click(function(){
+  //   $("input").trigger("select");
+  // });
   </script>
 </html>
