@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MathRix'19 | Department of Mathematics </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="icon-bar sticky-top">
+      <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
+      <a href="#" class="google"><i class="fab fa-instagram"></i></a>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand title-text" href="#home">MathRix'19</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- navbar content section start here-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active mx-3">
+              <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#events">Events</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link" href="#workshop">Workshop</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link pointer-style" data-toggle="modal" data-target="#contact-modal">Contact us</a>
+            </li>
+            <li class="nav-item mx-3">
+              <a class="nav-link pointer-style" data-toggle="modal" data-target="#register-modal">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+    <!-- modal  -->
+    <div class="modal fade" id="contact-modal" tabindex="-1" role="dialog" aria-labelledby="contact-modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="contact-modal">Contact info</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mb-5">
+            <h1>General Secretary</h1>
+            <p>Makkal's number ??</p>
+          </div>
+          <div class="modal-footer mt-5">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal ends here -->
+    <!-- modal  -->
+    <div class="modal fade" id="register-modal" tabindex="-1" role="dialog" aria-labelledby="register-modal" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="register-modal">Registration</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body mb-5">
+            <form class="" action="" method="post">
+              <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Name">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="college_id" placeholder="College ID Card No.">
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" id="college_name" placeholder="College Name">
+              </div>
+              <div class="form-group">
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email">
+              </div>
+              <div class="form-group">
+                <input type="number" class="form-control" id="mobile_no" placeholder="Moblie No." title="10 characters minimum">
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer mt-5">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+            <button type="submit" class="btn btn-primary">Register</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- modal ends here -->
+    <!-- header section : MathRix logo and Events -->
+    <header class="py-5" id=home>
+      <div class="jumbotron">
+        <h1> logo must be placed </h1>
+      </div>
+    </header>
+    <!-- header section ends here -->
+    <!-- Events section starts here -->
+    <section id=events class="events-style py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h3 class="text-center">Events</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 p-5">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="card flip-card-front" style="width: 19rem;">
+                  <img class="card-img-top" src="coc.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Code Relay</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Code Relay</h1>
+                  <p>Coding Relay description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_1">
+                    More Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade" id="events_1" tabindex="-1" role="dialog" aria-labelledby="events_1" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="events_1">Code Relay</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active show" data-toggle="tab" href="#format1">Format</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#rule1">Rule</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#contact1">Contact</a>
+                    </li>
+                  </ul>
+                  <!-- tab-panel content -->
+                  <div class="tab-content">
+                      <div id="format1" class="tab-pane fade in active show">
+                        <h3>Round ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="rule1" class="tab-pane fade">
+                        <h3>Rule ?</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="contact1" class="tab-pane fade">
+                        <h3>Contact no ?</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal ends here -->
+          <div class="col-lg-4 p-5">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="card flip-card-front" style="width: 19rem;">
+                  <img class="card-img-top" src="cm.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Connexions</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Connexions</h1>
+                  <p>Connexions description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_2">
+                    More Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade" id="events_2" tabindex="-1" role="dialog" aria-labelledby="events_2" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="events_2">Connexions</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active show" data-toggle="tab" href="#format2">Format</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#rule2">Rule</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#contact2">Contact</a>
+                    </li>
+                  </ul>
+                  <!-- tab-panel content -->
+                  <div class="tab-content">
+                      <div id="format2" class="tab-pane fade in active show">
+                        <h3>Round ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="rule2" class="tab-pane fade">
+                        <h3>Rule ?</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="contact2" class="tab-pane fade">
+                        <h3>Contact no ?</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal ends here -->
+          <div class="col-lg-4 p-5">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="card flip-card-front" style="width: 19rem;">
+                  <img class="card-img-top" src="mq.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Tricksters</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Tricksters</h1>
+                  <p>Tricksters Description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_3">
+                    More Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal  -->
+        <div class="modal fade" id="events_3" tabindex="-1" role="dialog" aria-labelledby="events_3" aria-hidden="true">
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="events_3">Tricksters</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                <ul class="nav nav-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active show" data-toggle="tab" href="#format3">Format</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#rule3">Rule</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#contact3">Contact</a>
+                  </li>
+                </ul>
+                <!-- tab-panel content -->
+                <div class="tab-content">
+                    <div id="format3" class="tab-pane fade in active show">
+                      <h3>Round ?</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div id="rule3" class="tab-pane fade">
+                      <h3>Rule ?</h3>
+                      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div id="contact3" class="tab-pane fade">
+                      <h3>Contact no ?</h3>
+                      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                    </div>
+                  </div>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- modal ends here -->
+        <div class="row">
+          <div class="col-lg-4 p-5">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="card flip-card-front" style="width: 19rem;">
+                  <img class="card-img-top" src="coc.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Math Quiz</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Math Quiz</h1>
+                  <p>Math Quiz description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_4">
+                    More Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade" id="events_4" tabindex="-1" role="dialog" aria-labelledby="events_4" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="events_4">Math Quiz</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active show" data-toggle="tab" href="#format4">Format</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#rule4">Rule</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#contact4">Contact</a>
+                    </li>
+                  </ul>
+                  <!-- tab-panel content -->
+                  <div class="tab-content">
+                      <div id="format4" class="tab-pane fade in active show">
+                        <h3>Round ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="rule4" class="tab-pane fade">
+                        <h3>Rule ?</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="contact4" class="tab-pane fade">
+                        <h3>Contact no ?</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal ends here -->
+          <div class="col-lg-4 p-5">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="card flip-card-front" style="width: 19rem;">
+                  <img class="card-img-top" src="cm.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Fun Math</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Fun Math</h1>
+                  <p>Fun Math description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_5">
+                    More Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade" id="events_5" tabindex="-1" role="dialog" aria-labelledby="events_5" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="events_5">Fun Math</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active show" data-toggle="tab" href="#format5">Format</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#rule5">Rule</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#contact5">Contact</a>
+                    </li>
+                  </ul>
+                  <!-- tab-panel content -->
+                  <div class="tab-content">
+                      <div id="format5" class="tab-pane fade in active show">
+                        <h3>Round ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="rule5" class="tab-pane fade">
+                        <h3>Rule ?</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="contact5" class="tab-pane fade">
+                        <h3>Contact no ?</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal ends here -->
+          <div class="col-lg-4 p-5">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="card flip-card-front" style="width: 19rem;">
+                  <img class="card-img-top" src="mq.jpeg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">Logo Design</p>
+                  </div>
+                </div>
+                <div class="flip-card-back">
+                  <h1>Logo Design</h1>
+                  <p>Logo Design Description</p>
+                  <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#events_6">
+                    More Details
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal  -->
+          <div class="modal fade" id="events_6" tabindex="-1" role="dialog" aria-labelledby="events_6" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="events_6">Logo Design</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                      <a class="nav-link active show" data-toggle="tab" href="#format6">Format</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#rule6">Rule</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" data-toggle="tab" href="#contact6">Contact</a>
+                    </li>
+                  </ul>
+                  <!-- tab-panel content -->
+                  <div class="tab-content">
+                      <div id="format6" class="tab-pane fade in active show">
+                        <h3>Round ?</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                      </div>
+                      <div id="rule6" class="tab-pane fade">
+                        <h3>Rule ?</h3>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                      </div>
+                      <div id="contact6" class="tab-pane fade">
+                        <h3>Contact no ?</h3>
+                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+                      </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- modal ends here -->
+        </div>
+      </div>
+    </section>
+    <!-- Events section ends here -->
+    <!-- Workshop section starts here -->
+    <section id=workshop class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col pb-5">
+            <h3 class="text-center">Workshop</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 pb-5">
+            <div id="carousel-modal" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carousel-modal" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-modal" data-slide-to="1"></li>
+                <li data-target="#carousel-modal" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src="cb3.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="cb2.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src="cb3.jpg" alt="Third slide">
+                </div>
+              </div>
+              <a class="carousel-control-prev" href="#carousel-modal" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next" href="#carousel-modal" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Workshop section ends here -->
+    <!-- Sponsors section starts here -->
+    <section id=sponsors class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col pb-5">
+            <h3 class="text-center">Sponsors</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12 pb-5">
+            <!-- <img src="cb3.jpg" alt="workshop_image"> -->
+            <div class="jumbotron">
+              <h1>Sponsors part</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Sponsors section ends here -->
+    <!-- Footer section starts here -->
+    <footer>
+      <nav class="nav flex-column bg-dark footer-nav-style">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 p-5">
+              <h2 class="footer-head" href="#">About MathRix'19</h2>
+              <p class="footer-text" href="#">The Department of Mathematics have been conducting a colloquium under the name Mathrix for around three decades.
+                Mathrix has always been a fascinating fest,testing the the tech cum math abilities of students from various colleges.</p>
+            </div>
+            <div class="col-lg-6 p-5">
+              <h5 class="footer-head">Department of Mathematics,
+                Anna University,
+                Chennai - 600025</h5>
+              <nav class="nav flex-column bg-dark">
+                <a class="nav-link" href="#">044-2235 8533</a>
+                <a class="nav-link" href="#">contact@mathrixau.in</a>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </footer>
+    <!-- Footer section ends here -->
+  </body>
+  <script type="text/javascript">
+  $('ul.navbar-nav li').click(function() {
+    $('ul.navbar-nav li.active').removeClass('active');
+    $(this).addClass('active');
+  });
+  // $("btn").click(function(){
+  //   $("input").trigger("select");
+  // });
+
+  </script>
+</html>
